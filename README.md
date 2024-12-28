@@ -164,13 +164,21 @@ Se ejecuta en un sistema operativo ubuntu-latest.
 
 📀 *3. Pasos del Job:*
 
-✨️ Checkout: Clona el repositorio en el entorno de GitHub Actions.
+✨️ Checkout: 
 
-✨️ Login to Docker Hub: Inicia sesión en Docker Hub usando las credenciales almacenadas en los secretos (DOCKERHUB_USERNAME y DOCKERHUB_TOKEN).
+Clona el repositorio en el entorno de GitHub Actions.
 
-✨️ Set up Docker Buildx: Configura Docker Buildx, que permite construir imágenes multiplataforma.
+✨️ Login to Docker Hub: 
 
-✨️ Build and push: Construye la imagen de Docker definida en Dockerfile y la sube a Docker Hub con la etiqueta clockbox:latest.
+Inicia sesión en Docker Hub usando las credenciales almacenadas en los secretos (DOCKERHUB_USERNAME y DOCKERHUB_TOKEN).
+
+✨️ Set up Docker Buildx: 
+
+Configura Docker Buildx, que permite construir imágenes multiplataforma.
+
+✨️ Build and push: 
+
+Construye la imagen de Docker definida en Dockerfile y la sube a Docker Hub con la etiqueta clockbox:latest.
 
 Propósito:
 
