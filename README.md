@@ -3,7 +3,7 @@
 Este proyecto demuestra cómo integrar Docker, GitHub Actions, Java Spring Boot y Dokku para crear un flujo de trabajo de desarrollo y despliegue automatizado. La aplicación es un servicio básico de Spring Boot que se ejecuta dentro de un contenedor Docker, se automatiza con GitHub Actions y se despliega usando Dokku.
 
 ```diff
-- text in red
+- bla
 + text in green
 ! text in orange
 # text in gray
