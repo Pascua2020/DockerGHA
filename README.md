@@ -75,6 +75,15 @@ EOF
 ENTRYPOINT /app/run.sh
 ```
 
+Este Dockerfile crea una imagen basada en busybox que ejecuta un script en un bucle infinito. El script imprime continuamente la hora actual en formato HH:MM:SS, actualizándola en la misma línea cada segundo.
+
+Usa la imagen base minimalista busybox:latest.
+
+Copia un script (run.sh) al contenedor con permisos de ejecución (chmod=755).
+
+Configura el script como el punto de entrada (ENTRYPOINT).
+
+
 Main.yml
 ```
 name: ci
