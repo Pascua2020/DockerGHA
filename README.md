@@ -174,3 +174,8 @@ Este proyecto no tiene licencia asignada. Al no contar con una licencia explíci
 🟫 **Autores**
 - Pascua2020 (https://github.com/Pascua2020)
 - UTN
+
+🔄 **Notas**
+*Consideraciones de seguridad*
+- Este proyecto utiliza variables secretas (`DOCKER_USERNAME`, `DOCKER_PASSWORD`, `GITHUB_TOKEN`).  
+- Asegúrate de configurar los secretos en la sección "Settings > Secrets and Variables > Actions" de tu repositorio.
