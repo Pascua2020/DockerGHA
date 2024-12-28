@@ -120,8 +120,6 @@ jobs:
 ```
 Este archivo main.yml configura un flujo de integración continua (CI) en GitHub Actions para construir y publicar una imagen de Docker en Docker Hub cada vez que se hace un push a la rama main.
 
-Resumen de lo que hace:
-
 1. Trigger (Disparador):
 
 Se ejecuta automáticamente en un push a la rama main.
