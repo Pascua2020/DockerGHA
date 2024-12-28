@@ -31,7 +31,7 @@ Plataforma de despliegue similar a Heroku que usa contenedores Docker para gesti
 
 2️⃣🟧 **Estructura del Proyecto**
 
-```
+###```
 DockerGHA/
 │
 ├── .github/
@@ -49,7 +49,7 @@ DockerGHA/
 ├── target/                       # Directorio de build (generado por Maven/Gradle)
 ├── pom.xml                       # Archivo de configuración de Maven (si usas Maven)
 └── .gitignore                    # Archivos y directorios que Git debe ignorar
-```
+```###
 
 💾 *Dockerfile:* 
 
