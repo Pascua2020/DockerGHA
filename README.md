@@ -39,7 +39,7 @@ Dokku: Necesitas un servidor remoto con Dokku instalado para gestionar el despli
 Java: Debes tener instalado Java y Maven para desarrollar la aplicación de backend con Spring Boot.
 
 Estructura del Proyecto
-
+```
 DockerGHA/
 │
 ├── .github/
@@ -57,3 +57,4 @@ DockerGHA/
 ├── target/                       # Directorio de build (generado por Maven/Gradle)
 ├── pom.xml                       # Archivo de configuración de Maven (si usas Maven)
 └── .gitignore                    # Archivos y directorios que Git debe ignorar
+```
