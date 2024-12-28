@@ -118,6 +118,31 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/clockbox:latest
 ```
+Este archivo main.yml configura un flujo de integración continua (CI) en GitHub Actions para construir y publicar una imagen de Docker en Docker Hub cada vez que se hace un push a la rama main.
+
+Resumen de lo que hace:
+
+1. Trigger (Disparador):
+
+Se ejecuta automáticamente en un push a la rama main.
+
+2. Job (build):
+
+Se ejecuta en un sistema operativo ubuntu-latest.
+
+3. Pasos del Job:
+
+Checkout: Clona el repositorio en el entorno de GitHub Actions.
+
+Login to Docker Hub: Inicia sesión en Docker Hub usando las credenciales almacenadas en los secretos (DOCKERHUB_USERNAME y DOCKERHUB_TOKEN).
+
+Set up Docker Buildx: Configura Docker Buildx, que permite construir imágenes multiplataforma.
+
+Build and push: Construye la imagen de Docker definida en Dockerfile y la sube a Docker Hub con la etiqueta clockbox:latest.
+
+Propósito:
+
+Automatizar la creación y despliegue de imágenes Docker en Docker Hub para mantenerlas actualizadas con los cambios en la rama principal del repositorio.
 
 🟦 Estado del Proyecto
 
