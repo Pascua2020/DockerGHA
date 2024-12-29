@@ -6,7 +6,6 @@
 
 ![Build Status](https://github.com/Pascua2020/DockerGHA/actions/workflows/main.yml/badge.svg)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
-
 ![Docker](https://img.shields.io/badge/container-Docker-blue?logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/CI-GitHub%20Actions-blue?logo=githubactions&logoColor=white)
 ![Dokku](https://img.shields.io/badge/deployment-Dokku-blueviolet?logo=dokku)
