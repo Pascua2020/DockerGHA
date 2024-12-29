@@ -127,23 +127,23 @@ Automate deployment processes via Dokku.
 
 ## 4️⃣🟨 Technologies Used
 
-Backend:
+*Backend:*
 
 Java Spring Boot: Provides a framework for developing microservices and REST APIs.
 
-Containers:
+*Containers:*
 
 Docker: Used to create, deploy, and run the application in containers, ensuring consistency across environments.
 
-Automation:
+*Automation:*
 
 GitHub Actions: Configured to automate the build, test, and deployment processes.
 
-Deployment:
+*Deployment:*
 
 Dokku: Used to manage and deploy the application to a virtualized environment, simplifying application hosting.
 
-Others:
+*Others:*
 
 Nginx: Used as a reverse proxy for the application to enhance performance and security.
 
