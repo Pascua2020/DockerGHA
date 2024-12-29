@@ -60,7 +60,7 @@ A Heroku-like deployment platform that uses Docker containers to manage applicat
 
 ⚠️ *Main.yml - General differences:*
 
-ℹ️ 1. Repositories:
+*ℹ️ 1. Repositories:*
 
 
 - 1 and 2 push images only to Docker Hub.
@@ -70,12 +70,12 @@ A Heroku-like deployment platform that uses Docker containers to manage applicat
 - 4 pushes to both registries (Docker Hub and GHCR).
 
 
-ℹ️ 2. Automation:
+*ℹ️ 2. Automation:*
 
 - Repositories 2, 3, and 4 use docker/metadata-action for automatic tagging, while 1 does not.
 
 
-ℹ️ 3. Image names:
+*ℹ️ 3. Image names:*
 
 - Repository 1 has a fixed name: clockbox:latest.
 
@@ -156,7 +156,7 @@ Automate deployment processes via Dokku.
 
 💡Nginx: Used as a reverse proxy for the application to enhance performance and security.
 
-#⬜️ Code
+# ⬜️ Code
 
 💡 *Dockerfile*
 ```
@@ -225,9 +225,9 @@ This project does not have an assigned license. Without an explicit license, all
 
 ## 8️⃣🟫 Authors
 
-- Pascua2020 (https://github.com/Pascua2020)
+- *Pascua2020* (https://github.com/Pascua2020)
 
-- UTN
+- *UTN*
 
 
 ## 9️⃣📒 Official Documentation:
