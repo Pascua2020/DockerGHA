@@ -182,20 +182,20 @@ https://dokku.com/docs/getting-started/installation/
 
 Security Considerations
 
--This project uses secret variables (DOCKER_USERNAME, DOCKER_PASSWORD, GITHUB_TOKEN).
+- This project uses secret variables (DOCKER_USERNAME, DOCKER_PASSWORD, GITHUB_TOKEN).
 
--Make sure to configure the secrets in the "Settings > Secrets and Variables > Actions" section of your repository.
+- Make sure to configure the secrets in the "Settings > Secrets and Variables > Actions" section of your repository.
 
 
 Project Limitations
 
--This project does not include advanced orchestration setups like Kubernetes.
+- This project does not include advanced orchestration setups like Kubernetes.
 
--It is designed for simple deployments in Docker-compatible environments.
+- It is designed for simple deployments in Docker-compatible environments.
 
 
 Additional Notes
 
--This project is an educational example. 
+- This project is an educational example. 
 
--It is not recommended for use in production environments without making specific adjustments.
+- It is not recommended for use in production environments without making specific adjustments.
