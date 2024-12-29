@@ -4,6 +4,7 @@ Hashtags #️⃣ : #devops #docker #linux #automation #ci #github-actions #dokku
 
 ( Docker, GitHub Actions, Java Spring Boot, and Dokku )
 
+![DevOps Logo](https://globalittrainers.com/wp-content/uploads/2021/06/Devops-logo1.png)
 
 - This project demonstrates how to integrate Docker, GitHub Actions, Java Spring Boot, and Dokku to create an automated development and deployment workflow.
 
