@@ -25,17 +25,25 @@ Hashtags #️⃣ : #devops #docker #linux #automation #ci #github-actions #dokku
 
 *⚡️ Docker:*
 
+![Docker Logo](https://dwglogo.com/wp-content/uploads/2017/09/Docker_container_engine_logo.png)
+
 Packages the Spring Boot application in a container to ensure it runs consistently in any environment.
 
 *⚡️ GitHub Actions:*
+
+![GHA Logo](https://miro.medium.com/v2/resize:fit:1075/0*w5Fsp29pbWIUpW7Q.png)
 
 Automates the build, test, and deployment processes for the application with each change in the repository.
 
 *⚡️ Java Spring Boot:*
 
+![Java SB Logo](https://miro.medium.com/v2/resize:fit:720/format:webp/1*MvUFlFTbiU40ae1SK69-Jg.png)
+
 Backend framework for web application development.
 
 *⚡️ Dokku:*
+
+![Dokku Logo](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6mNvZ4G3tFQpY1qcVDQdWGSVUW5ljKhyUxfgTeFAZUX5r48Xm8M6mMf55h3IkCw1DC3ERygHIWgsvguq1cYntoluBXdW4-7W_Uhw8JHrvQIeW5T1lIGOuk7WTvkP5O-M_XR4J-6W9Gg-vfhG6B-Q6w75EaJ_eHlGvjxcbEGB3_xckw6OnTwxuBWsL-TRQ/s2800/A%20Deep%20Dive%20with%20Dokku.webp)
 
 A Heroku-like deployment platform that uses Docker containers to manage applications easily.
 
