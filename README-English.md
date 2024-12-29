@@ -22,19 +22,19 @@ Hashtags #️⃣ : #devops #docker #linux #automation #ci #github-actions #dokku
 
 ## 1️⃣🟥 Features
 
-⚡️ Docker:
+*⚡️ Docker:*
 
 Packages the Spring Boot application in a container to ensure it runs consistently in any environment.
 
-⚡️ GitHub Actions:
+*⚡️ GitHub Actions:*
 
 Automates the build, test, and deployment processes for the application with each change in the repository.
 
-⚡️ Java Spring Boot:
+*⚡️ Java Spring Boot:*
 
 Backend framework for web application development.
 
-⚡️ Dokku:
+*⚡️ Dokku:*
 
 A Heroku-like deployment platform that uses Docker containers to manage applications easily.
 
