@@ -91,7 +91,7 @@ Script que automatiza el proceso de despliegue de la aplicación en un servidor 
 
 ## 3️⃣🟨 **Instalación**
 
- 🖱 Requisitos
+ 🖱 *Requisitos*
 
 ℹ️ *Docker:* 
 
@@ -111,7 +111,7 @@ Debes tener instalado Java y Maven para desarrollar la aplicación de backend co
 
 ## 4️⃣⬜️ **Código**
 
-💡 Dockerfile
+💡 *Dockerfile*
 ```
 # syntax=docker/dockerfile:1
 FROM busybox:latest
@@ -135,7 +135,7 @@ Copia un script (run.sh) al contenedor con permisos de ejecución (chmod=755).
 Configura el script como el punto de entrada (ENTRYPOINT).
 
 
-💡 Main.yml
+💡 *Main.yml*
 ```
 name: ci
 
