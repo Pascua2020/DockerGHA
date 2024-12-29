@@ -4,6 +4,11 @@
 
 ( Docker, GitHub Actions, Java Spring Boot y Dokku )
 
+![Build Status](https://github.com/Pascua2020/DockerGHA/actions/workflows/main.yml/badge.svg)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Language](https://img.shields.io/github/languages/top/Pascua2020/DockerGHA)
+
 ```diff 
 
 - Este proyecto demuestra cómo integrar Docker, GitHub Actions, Java Spring Boot y Dokku para crear un flujo de trabajo de desarrollo y despliegue automatizado. 
