@@ -169,13 +169,13 @@ This project does not have an assigned license. Without an explicit license, all
 
 ## 9️⃣📒 Official Documentation:
 
-- Docker:
+*- Docker:*
 https://docs.docker.com
 
-- GitHub Actions:
+*- GitHub Actions:*
 https://docs.github.com/en/actions
 
-- Dokku:
+*- Dokku:*
 https://dokku.com/docs/getting-started/installation/
 
 ## 🔟🔄 Notes
