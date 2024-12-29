@@ -61,21 +61,21 @@ Plataforma de despliegue similar a Heroku que usa contenedores Docker para gesti
 
 1. Repositorios:
 
-  - 1 y 2 suben imágenes solo a Docker Hub.
+- 1 y 2 suben imágenes solo a Docker Hub.
 
-  - 3 sube solo a GHCR.
+- 3 sube solo a GHCR.
 
-  - 4 sube a ambos registries (Docker Hub y GHCR).
+- 4 sube a ambos registries (Docker Hub y GHCR).
 
 2. Automatización:
 
-  - Repositorios 2, 3 y 4 usan docker/metadata-action para etiquetas automáticas, mientras que el 1 no.
+- Repositorios 2, 3 y 4 usan docker/metadata-action para etiquetas automáticas, mientras que el 1 no.
 
 3. Nombres de imagen:
 
-  - Repositorio 1 tiene un nombre fijo: clockbox:latest.
+- Repositorio 1 tiene un nombre fijo: clockbox:latest.
 
-  - Los demás repositorios usan configuraciones dinámicas o específicas.
+- Los demás repositorios usan configuraciones dinámicas o específicas.
 
 ## 2️⃣🟧 **Estructura del Proyecto**
 
