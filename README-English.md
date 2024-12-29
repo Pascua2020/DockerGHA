@@ -8,7 +8,8 @@ Hashtags #️⃣ : #devops #docker #linux #automation #ci #github-actions #dokku
 ![Docker](https://img.shields.io/badge/container-Docker-blue?logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/CI-GitHub%20Actions-blue?logo=githubactions&logoColor=white)
 ![Dokku](https://img.shields.io/badge/deployment-Dokku-blueviolet?logo=dokku)
-![No License](https://img.shields.io/badge/license-None-red)
+![No License](https://img.shields.io/badge/license-None-red) 
+![English](https://img.shields.io/badge/language-english-blue?style=flat-square&logo=google-translate)
 
 ( Docker, GitHub Actions, Java Spring Boot, and Dokku )
 
