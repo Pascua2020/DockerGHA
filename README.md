@@ -1,5 +1,4 @@
-#️⃣###
-#devops #docker #linux #automation #ci #github-actions #dokku #java-springboot #nginx ###
+#️⃣####devops #docker #linux #automation #ci #github-actions #dokku #java-springboot #nginx###
 
 # ✅️ **DockerGHA** 
 
