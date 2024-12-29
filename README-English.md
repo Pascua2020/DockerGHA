@@ -129,23 +129,23 @@ Automate deployment processes via Dokku.
 
 *Backend:*
 
-Java Spring Boot: Provides a framework for developing microservices and REST APIs.
+💡Java Spring Boot: Provides a framework for developing microservices and REST APIs.
 
 *Containers:*
 
-Docker: Used to create, deploy, and run the application in containers, ensuring consistency across environments.
+💡Docker: Used to create, deploy, and run the application in containers, ensuring consistency across environments.
 
 *Automation:*
 
-GitHub Actions: Configured to automate the build, test, and deployment processes.
+💡GitHub Actions: Configured to automate the build, test, and deployment processes.
 
 *Deployment:*
 
-Dokku: Used to manage and deploy the application to a virtualized environment, simplifying application hosting.
+💡Dokku: Used to manage and deploy the application to a virtualized environment, simplifying application hosting.
 
 *Others:*
 
-Nginx: Used as a reverse proxy for the application to enhance performance and security.
+💡Nginx: Used as a reverse proxy for the application to enhance performance and security.
 
 ## 5️⃣🟦 Project Status
 
