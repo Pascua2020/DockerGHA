@@ -210,7 +210,9 @@ jobs:
 
 ## 5️⃣🟦 Project Status
 
+```
 ☑️ Completed.
+```
 
 ## 6️⃣👤 Collaboration
 
