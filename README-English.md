@@ -156,6 +156,58 @@ Automate deployment processes via Dokku.
 
 💡Nginx: Used as a reverse proxy for the application to enhance performance and security.
 
+Code
+
+💡 *Dockerfile*
+```
+# syntax=docker/dockerfile:1
+FROM busybox:latest
+COPY --chmod=755 <<EOF /app/run.sh
+#!/bin/sh
+while true; do
+  echo -ne "The time is now $(date +%T)\\r"
+  sleep 1
+done
+EOF
+
+ENTRYPOINT /app/run.sh
+```
+
+💡 *Main.yml*
+```
+name: ci
+
+on:
+  push:
+    branches:
+      - "main"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: Checkout
+        uses: actions/checkout@v4
+      -
+        name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+      -
+        name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+      -
+        name: Build and push
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: ./Dockerfile
+          push: true
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/clockbox:latest
+```
+
 ## 5️⃣🟦 Project Status
 
 ☑️ Completed.
