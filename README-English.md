@@ -38,9 +38,9 @@ Backend framework for web application development.
 
 A Heroku-like deployment platform that uses Docker containers to manage applications easily.
 
-Differences between DockerGHA 1, 2, 3, and 4:
+### Differences between DockerGHA 1, 2, 3, and 4:
 
-All Dockerfiles are identical:
+*All Dockerfiles are identical:*
 
 Use the base image busybox:latest.
 
@@ -49,7 +49,7 @@ Copy a run.sh script into the container, which prints the current time in the co
 Configure the run.sh script as the container's entry point.
 
 
-Main.yml - General differences:
+*Main.yml - General differences:*
 
 1. Repositories:
 
