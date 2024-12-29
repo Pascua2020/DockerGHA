@@ -42,11 +42,11 @@ A Heroku-like deployment platform that uses Docker containers to manage applicat
 
 *All Dockerfiles are identical:*
 
-Use the base image busybox:latest.
+- Use the base image busybox:latest.
 
-Copy a run.sh script into the container, which prints the current time in the console in an infinite loop.
+- Copy a run.sh script into the container, which prints the current time in the console in an infinite loop.
 
-Configure the run.sh script as the container's entry point.
+- Configure the run.sh script as the container's entry point.
 
 
 *Main.yml - General differences:*
@@ -54,23 +54,23 @@ Configure the run.sh script as the container's entry point.
 1. Repositories:
 
 
-1 and 2 push images only to Docker Hub.
+- 1 and 2 push images only to Docker Hub.
 
-3 pushes only to GHCR.
+- 3 pushes only to GHCR.
 
-4 pushes to both registries (Docker Hub and GHCR).
+- 4 pushes to both registries (Docker Hub and GHCR).
 
 
 2. Automation:
 
-Repositories 2, 3, and 4 use docker/metadata-action for automatic tagging, while 1 does not.
+- Repositories 2, 3, and 4 use docker/metadata-action for automatic tagging, while 1 does not.
 
 
 3. Image names:
 
-Repository 1 has a fixed name: clockbox:latest.
+- Repository 1 has a fixed name: clockbox:latest.
 
-The other repositories use dynamic or specific configurations.
+- The other repositories use dynamic or specific configurations.
 
 
 ## 2️⃣🟧 Project Structure
