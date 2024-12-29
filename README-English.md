@@ -1,7 +1,6 @@
 Hashtags #️⃣ : #devops #docker #linux #automation #ci #github-actions #dokku #java-springboot #nginx
 
-### English-Versión README.
-Para leer la Version en Español,ve a README.md
+### English-Versión README.Para leer la Version en Español,ve a README.md
 
 # ✅️ DockerGHA
 
