@@ -197,7 +197,7 @@ Configura Docker Buildx, que permite construir imágenes multiplataforma.
 
 Construye la imagen de Docker definida en Dockerfile y la sube a Docker Hub con la etiqueta clockbox:latest.
 
-Propósito:
+🔑 Propósito:
 
 Automatizar la creación y despliegue de imágenes Docker en Docker Hub para mantenerlas actualizadas con los cambios en la rama principal del repositorio.
 
