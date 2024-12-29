@@ -1,6 +1,6 @@
 Hashtags #️⃣ : #devops #docker #linux #automation #ci #github-actions #dokku #java-springboot #nginx
 
-✅️ DockerGHA
+##✅️ DockerGHA##
 
 
 ![Build Status](https://github.com/Pascua2020/DockerGHA/actions/workflows/main.yml/badge.svg)
@@ -18,7 +18,7 @@ Hashtags #️⃣ : #devops #docker #linux #automation #ci #github-actions #dokku
 
 - The application is a basic Spring Boot service running inside a Docker container, automated with GitHub Actions, and deployed using Dokku.
 
-1️⃣🟥 Features
+#1️⃣🟥 Features#
 
 ⚡️ Docker:
 
@@ -71,7 +71,7 @@ Repository 1 has a fixed name: clockbox:latest.
 The other repositories use dynamic or specific configurations.
 
 
-2️⃣🟧 Project Structure
+#2️⃣🟧 Project Structure#
 ```
 DockerGHA/
 │
@@ -111,7 +111,7 @@ Maven configuration file for dependencies and project build.
 
 Script that automates the deployment process of the application to a remote server using Dokku.
 
-3️⃣🟩 Objectives of the Project
+#3️⃣🟩 Objectives of the Project#
 
 The purpose of this repository is to demonstrate the use of Docker, GitHub Actions, and Dokku in a unified DevOps workflow for building, testing, and deploying applications.
 
@@ -123,7 +123,7 @@ Implement CI/CD pipelines using GitHub Actions.
 
 Automate deployment processes via Dokku.
 
-4️⃣🟨 Technologies Used
+#4️⃣🟨 Technologies Used#
 
 Backend:
 
@@ -145,27 +145,27 @@ Others:
 
 Nginx: Used as a reverse proxy for the application to enhance performance and security.
 
-5️⃣🟦 Project Status
+#5️⃣🟦 Project Status#
 
 ☑️ Completed.
 
-6️⃣👤 Collaboration
+#6️⃣👤 Collaboration#
 
 This project is for personal use and is not open to external contributions.
 However, if you find it interesting or have any questions, I’ll be happy to hear them! Feel free to contact me on my GitHub profile.
 
-7️⃣🟪 License
+#7️⃣🟪 License#
 
 This project does not have an assigned license. Without an explicit license, all rights are reserved. If you wish to use this project, please contact me.
 
-8️⃣🟫 Authors
+#8️⃣🟫 Authors#
 
 -Pascua2020 (https://github.com/Pascua2020)
 
 -UTN
 
 
-9️⃣📒 Official Documentation:
+#9️⃣📒 Official Documentation:#
 
 -Docker:
 https://docs.docker.com
@@ -176,7 +176,7 @@ https://docs.github.com/en/actions
 -Dokku:
 https://dokku.com/docs/getting-started/installation/
 
-🔟🔄 Notes
+#🔟🔄 Notes#
 
 Security Considerations
 
