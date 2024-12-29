@@ -12,6 +12,7 @@
 ![GitHub Actions](https://img.shields.io/badge/CI-GitHub%20Actions-blue?logo=githubactions&logoColor=white)
 ![Dokku](https://img.shields.io/badge/deployment-Dokku-blueviolet?logo=dokku)
 ![No License](https://img.shields.io/badge/license-None-red)
+![Español](https://img.shields.io/badge/idioma-español-red?style=flat-square&logo=google-translate)  
 
 ```diff 
 
