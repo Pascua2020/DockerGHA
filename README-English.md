@@ -177,11 +177,11 @@ ENTRYPOINT /app/run.sh
 
 This Dockerfile creates a lightweight Docker image based on the busybox:latest image.
 
-1. Base Image:
+🔷️1. Base Image:
 
 It uses the busybox:latest image, which is a minimalistic image optimized for small applications.
 
-2. Copy and Create Script:
+🔷️2. Copy and Create Script:
 
 It copies and creates a shell script (run.sh) inside the container at the /app/ directory.
 
@@ -191,11 +191,11 @@ Prints the current time in HH:MM:SS format on the same line (\r moves the cursor
 
 Waits for one second before updating the time.
 
-3. Set Permissions:
+🔷️3. Set Permissions:
 
 The script is copied with executable permissions (chmod=755).
 
-4. Entry Point:
+🔷️4. Entry Point:
 
 The script (/app/run.sh) is set as the container's entry point. This means it will automatically start running the script when the container is launched.
 
@@ -249,11 +249,11 @@ The workflow is triggered on push events to the main branch.
 
 Jobs:
 
-1. Job Name: build
+🔷️1. Job Name: build
 
 Runs on: ubuntu-latest (the latest Ubuntu runner provided by GitHub).
 
-2. Steps:
+🔷️2. Steps:
 
 Checkout:
 
