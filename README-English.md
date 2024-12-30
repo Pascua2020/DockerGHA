@@ -249,15 +249,15 @@ jobs:
 ```
 This GitHub Actions workflow (main.yml) automates the continuous integration (CI) process for building and pushing a Docker image to Docker Hub.
 
-Workflow Name :
+*Workflow Name :*
 
 ci: The name of the workflow.
 
-Trigger :
+*Trigger :*
 
 The workflow is triggered on push events to the main branch.
 
-Jobs :
+*Jobs :*
 
 *🔷️ 1. Job Name : build*
 
