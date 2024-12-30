@@ -60,7 +60,7 @@ Plataforma de despliegue similar a Heroku que usa contenedores Docker para gesti
 
 - Configuran el script run.sh como el punto de entrada del contenedor.
 
-#### ⚙️ *Main.yml - Diferencias generales*:
+#### ⚙️ *Main.yml - Diferencias generales :*
 
 *🔷️ 1. Repositorios :*
 
@@ -205,33 +205,33 @@ jobs:
 ```
 Este archivo main.yml configura un flujo de integración continua (CI) en GitHub Actions para construir y publicar una imagen de Docker en Docker Hub cada vez que se hace un push a la rama main.
 
-📀 *1. Trigger (Disparador):*
+📀 *1. Trigger (Disparador) :*
 
 Se ejecuta automáticamente en un push a la rama main.
 
-📀 *2. Job (build):*
+📀 *2. Job (build) :*
 
 Se ejecuta en un sistema operativo ubuntu-latest.
 
-📀 *3. Pasos del Job:*
+📀 *3. Pasos del Job :*
 
-✨️ *Checkout:*
+✨️ *Checkout :*
 
 Clona el repositorio en el entorno de GitHub Actions.
 
-✨️ *Login to Docker Hub:*
+✨️ *Login to Docker Hub :*
 
 Inicia sesión en Docker Hub usando las credenciales almacenadas en los secretos (DOCKERHUB_USERNAME y DOCKERHUB_TOKEN).
 
-✨️ *Set up Docker Buildx:*
+✨️ *Set up Docker Buildx :*
 
 Configura Docker Buildx, que permite construir imágenes multiplataforma.
 
-✨️ *Build and push:*
+✨️ *Build and push :*
 
 Construye la imagen de Docker definida en Dockerfile y la sube a Docker Hub con la etiqueta clockbox:latest.
 
-🔑 Propósito:
+🔑 Propósito :
 
 Automatizar la creación y despliegue de imágenes Docker en Docker Hub para mantenerlas actualizadas con los cambios en la rama principal del repositorio.
 
@@ -255,13 +255,13 @@ Este proyecto no tiene licencia asignada. Al no contar con una licencia explíci
 
 ## 9️⃣📒**Documentación Oficial:**
 
-*Docker:*
+*Docker :*
 https://docs.docker.com
 
-*Github Actions:*
+*Github Actions :*
 https://docs.github.com/es/actions
 
-*Dokku:*
+*Dokku :*
 https://dokku.com/docs/getting-started/installation/
 
 ## 🔟🔄 **Notas**
