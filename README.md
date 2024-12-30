@@ -6,7 +6,7 @@
 
 ![DevOps Logo](https://globalittrainers.com/wp-content/uploads/2021/06/Devops-logo1.png)
 
-##### ( Docker, GitHub Actions, Java Spring Boot y Dokku )
+( Docker, GitHub Actions, Java Spring Boot y Dokku )
 
 ![Build Status](https://github.com/Pascua2020/DockerGHA/actions/workflows/main.yml/badge.svg)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
