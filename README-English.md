@@ -199,7 +199,7 @@ The script is copied with executable permissions (chmod=755).
 
 The script (/app/run.sh) is set as the container's entry point. This means it will automatically start running the script when the container is launched.
 
-###*🔑 Purpose:*
+### *🔑 Purpose:*
 
 The container simply runs a script that continuously displays the current time in real-time. This is often used for testing, demonstration, or debugging purposes.
 
@@ -281,7 +281,7 @@ Push the built image to Docker Hub.
 
 Tags the image as username/clockbox:latest (replacing username with the value of DOCKERHUB_USERNAME).
 
-###*🔑 Purpose:*
+### *🔑 Purpose:*
 
 This workflow ensures that every push to the main branch automatically builds a new Docker image from the repository's Dockerfile and uploads it to Docker Hub under the specified tag.
 
