@@ -255,11 +255,11 @@ Runs on: ubuntu-latest (the latest Ubuntu runner provided by GitHub).
 
 🔷️ 2. Steps:
 
-Checkout:
+▫️ Checkout:
 
 Uses the actions/checkout action to pull the repository's code into the runner.
 
-Login to Docker Hub:
+▫️ Login to Docker Hub:
 
 Uses the docker/login-action to authenticate with Docker Hub using credentials stored as GitHub secrets:
 
@@ -267,11 +267,11 @@ DOCKERHUB_USERNAME: Docker Hub username.
 
 DOCKERHUB_TOKEN: Docker Hub access token.
 
-Set up Docker Buildx:
+▫️ Set up Docker Buildx:
 
 Uses the docker/setup-buildx-action to enable Docker Buildx, a tool for building multi-platform Docker images.
 
-Build and Push:
+▫️ Build and Push:
 
 Uses the docker/build-push-action to:
 
