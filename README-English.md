@@ -237,6 +237,53 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/clockbox:latest
 ```
+This GitHub Actions workflow (main.yml) automates the continuous integration (CI) process for building and pushing a Docker image to Docker Hub.
+
+Workflow Name:
+
+ci: The name of the workflow.
+
+Trigger:
+
+The workflow is triggered on push events to the main branch.
+
+Jobs:
+
+1. Job Name: build
+
+Runs on: ubuntu-latest (the latest Ubuntu runner provided by GitHub).
+
+2. Steps:
+
+Checkout:
+
+Uses the actions/checkout action to pull the repository's code into the runner.
+
+Login to Docker Hub:
+
+Uses the docker/login-action to authenticate with Docker Hub using credentials stored as GitHub secrets:
+
+DOCKERHUB_USERNAME: Docker Hub username.
+
+DOCKERHUB_TOKEN: Docker Hub access token.
+
+Set up Docker Buildx:
+
+Uses the docker/setup-buildx-action to enable Docker Buildx, a tool for building multi-platform Docker images.
+
+Build and Push:
+
+Uses the docker/build-push-action to:
+
+Build the Docker image using the Dockerfile in the repository's root directory (context: .).
+
+Push the built image to Docker Hub.
+
+Tags the image as username/clockbox:latest (replacing username with the value of DOCKERHUB_USERNAME).
+
+Purpose:
+
+This workflow ensures that every push to the main branch automatically builds a new Docker image from the repository's Dockerfile and uploads it to Docker Hub under the specified tag.
 
 ## 5️⃣🟦 Project Status
 
