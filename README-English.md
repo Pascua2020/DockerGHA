@@ -140,7 +140,7 @@ Automate deployment processes via Dokku.
 
 ▫️ *Backend :*
 
-💡Java Spring Boot: Provides a framework for developing microservices and REST APIs.
+💡Java Spring Boot : Provides a framework for developing microservices and REST APIs.
 
 ▫️ *Containers :*
 
@@ -177,11 +177,11 @@ ENTRYPOINT /app/run.sh
 
 This Dockerfile creates a lightweight Docker image based on the busybox:latest image.
 
-*🔷️ 1. Base Image:*
+*🔷️ 1. Base Image :*
 
 It uses the busybox:latest image, which is a minimalistic image optimized for small applications.
 
-*🔷️ 2. Copy and Create Script:*
+*🔷️ 2. Copy and Create Script :*
 
 It copies and creates a shell script (run.sh) inside the container at the /app/ directory.
 
@@ -191,15 +191,15 @@ Prints the current time in HH:MM:SS format on the same line (\r moves the cursor
 
 Waits for one second before updating the time.
 
-*🔷️ 3. Set Permissions:*
+*🔷️ 3. Set Permissions :*
 
 The script is copied with executable permissions (chmod=755).
 
-*🔷️ 4. Entry Point:*
+*🔷️ 4. Entry Point :*
 
 The script (/app/run.sh) is set as the container's entry point. This means it will automatically start running the script when the container is launched.
 
-### *🔑 Purpose:*
+### *🔑 Purpose :*
 
 The container simply runs a script that continuously displays the current time in real-time. This is often used for testing, demonstration, or debugging purposes.
 
@@ -239,27 +239,27 @@ jobs:
 ```
 This GitHub Actions workflow (main.yml) automates the continuous integration (CI) process for building and pushing a Docker image to Docker Hub.
 
-Workflow Name:
+Workflow Name :
 
 ci: The name of the workflow.
 
-Trigger:
+Trigger :
 
 The workflow is triggered on push events to the main branch.
 
-Jobs:
+Jobs :
 
-*🔷️ 1. Job Name: build*
+*🔷️ 1. Job Name : build*
 
 Runs on: ubuntu-latest (the latest Ubuntu runner provided by GitHub).
 
-*🔷️ 2. Steps:*
+*🔷️ 2. Steps :*
 
-▫️ Checkout:
+▫️ Checkout :
 
 Uses the actions/checkout action to pull the repository's code into the runner.
 
-▫️ Login to Docker Hub:
+▫️ Login to Docker Hub :
 
 Uses the docker/login-action to authenticate with Docker Hub using credentials stored as GitHub secrets:
 
@@ -267,11 +267,11 @@ DOCKERHUB_USERNAME: Docker Hub username.
 
 DOCKERHUB_TOKEN: Docker Hub access token.
 
-▫️ Set up Docker Buildx:
+▫️ Set up Docker Buildx :
 
 Uses the docker/setup-buildx-action to enable Docker Buildx, a tool for building multi-platform Docker images.
 
-▫️ Build and Push:
+▫️ Build and Push :
 
 Uses the docker/build-push-action to:
 
@@ -281,7 +281,7 @@ Push the built image to Docker Hub.
 
 Tags the image as username/clockbox:latest (replacing username with the value of DOCKERHUB_USERNAME).
 
-### *🔑 Purpose:*
+### *🔑 Purpose :*
 
 This workflow ensures that every push to the main branch automatically builds a new Docker image from the repository's Dockerfile and uploads it to Docker Hub under the specified tag.
 
@@ -307,15 +307,15 @@ This project does not have an assigned license. Without an explicit license, all
 - *UTN*
 
 
-## 9️⃣📒 Official Documentation:
+## 9️⃣📒 Official Documentation :
 
-*- Docker:*
+*- Docker :*
 https://docs.docker.com
 
-*- GitHub Actions:*
+*- GitHub Actions :*
 https://docs.github.com/en/actions
 
-*- Dokku:*
+*- Dokku :*
 https://dokku.com/docs/getting-started/installation/
 
 ## 🔟🔄 Notes
