@@ -160,7 +160,7 @@ Automate deployment processes via Dokku.
 
 ## ⬜️ Code
 
-💡 *Dockerfile*
+#### 💡 *Dockerfile*
 ```
 # syntax=docker/dockerfile:1
 FROM busybox:latest
@@ -203,7 +203,7 @@ The script (/app/run.sh) is set as the container's entry point. This means it wi
 
 The container simply runs a script that continuously displays the current time in real-time. This is often used for testing, demonstration, or debugging purposes.
 
-💡 *Main.yml*
+#### 💡 *Main.yml*
 ```
 name: ci
 
