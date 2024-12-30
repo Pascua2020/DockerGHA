@@ -175,6 +175,34 @@ EOF
 ENTRYPOINT /app/run.sh
 ```
 
+This Dockerfile creates a lightweight Docker image based on the busybox:latest image.
+
+1. Base Image:
+
+It uses the busybox:latest image, which is a minimalistic image optimized for small applications.
+
+2. Copy and Create Script:
+
+It copies and creates a shell script (run.sh) inside the container at the /app/ directory.
+
+The script runs an infinite loop that:
+
+Prints the current time in HH:MM:SS format on the same line (\r moves the cursor to the beginning).
+
+Waits for one second before updating the time.
+
+3. Set Permissions:
+
+The script is copied with executable permissions (chmod=755).
+
+4. Entry Point:
+
+The script (/app/run.sh) is set as the container's entry point. This means it will automatically start running the script when the container is launched.
+
+Purpose:
+
+The container simply runs a script that continuously displays the current time in real-time. This is often used for testing, demonstration, or debugging purposes.
+
 💡 *Main.yml*
 ```
 name: ci
